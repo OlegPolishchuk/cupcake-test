@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table_td {
+  border: 2px solid var(--color-border);
+  padding: 8px;
+}
+
+.table_row td {
+  padding: 10px 20px;
+  background: var(--color-bg);
+}
+
+.table_row td:hover {
+  background: var(--color-bg-hover);
+}
+
+.hint {
+  background: #747bff;
+}

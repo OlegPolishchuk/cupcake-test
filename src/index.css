@@ -1,0 +1,18 @@
+#root {
+  --color-border: #a6a6a6;
+  --color-bg: #f5f5f5;
+  --color-bg-hover: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:after,*:before {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-size: 20px;
+}
