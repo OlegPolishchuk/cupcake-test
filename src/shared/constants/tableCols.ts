@@ -1,0 +1,1 @@
+export const tableCols = ['First', 'Second', 'Third']

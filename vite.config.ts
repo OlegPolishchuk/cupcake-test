@@ -11,7 +11,11 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      components: '/src/shared/components'
+      components: '/src/shared/components',
+      api: '/src/api',
+      hooks: '/src/shared/hooks',
+      utils: '/src/shared/utils',
+      constants: '/src/shared/constants'
     }
   }
 })

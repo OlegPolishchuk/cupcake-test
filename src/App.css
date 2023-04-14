@@ -9,18 +9,16 @@
 
 .table_td {
   border: 2px solid var(--color-border);
-  padding: 8px;
-}
-
-.table_row td {
   padding: 10px 20px;
   background: var(--color-bg);
+  min-width: 150px;
 }
+
 
 .table_row td:hover {
   background: var(--color-bg-hover);
 }
 
 .hint {
-  background: #747bff;
+  background: #c3c6fa;
 }

@@ -17,7 +17,11 @@
     "jsx": "react-jsx",
     "baseUrl": "src",
     "paths": {
-      "components": ["shared/components"]
+      "components": ["shared/components"],
+      "api/*": ["api/*"],
+      "hooks": ["shared/hooks"],
+      "utils": ["shared/utils"],
+      "constants": ["shared/constants"]
     }
   },
   "include": ["src"],
